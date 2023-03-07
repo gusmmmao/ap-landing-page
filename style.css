@@ -5,272 +5,75 @@
   color: white;
 
   font-family: inter;
+  font-size: medium;
 }
 
 body {
   background-image: url(./assets/ap-background-img.png);
   background-size: cover;
-
-  height: fit-content
 }
 
 header {
+  width: 65%;
+  margin: 1rem auto 3rem;
   display: flex;
-
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
+}
 
-  margin-bottom: 150px;
+header img {
+  width: 17.5%;
 }
 
 header button {
-  width: 272px;
-  height: 54px;
-
-  font-size: 20px;
-
-  background-color: transparent;
-  color: orange;
-
-  border: 1px solid orange;
-  border-radius: 4px;
-
+  width: 35%;
+  padding: 0.55rem;
+  background: transparent;
+  color: #ff4900;
+  border: 1px solid #ff4900;
   align-items: center;
-  justify-content: center;
+  font-size: 1.25rem;
 }
 
-#curso {
-  display: grid;
-  grid-template-areas:
-    "curso-text-box curso-img"
-    "curso-text-box curso-img"
-    "curso-button curso-img";
-  grid-template-rows: 12rem 6rem 6rem;
-  grid-template-columns: 30rem 10rem;
+.course-invitation {
+   width: 65%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+  }
 
-  margin: 150px 200px 100px;
-
-  border-left: 1px solid #009fe3;
-
-  justify-content: space-between;
-}
-
-#curso-text-box {
-  display: flex;
-  flex-direction: column;
-
-  margin-left: 20px;
-
-  grid-area: curso-text-box;
-}
-
-#curso-text-box h1 {
-  font-size: 25px;
-}
-
-#curso-text-box h2 {
-  font-size: 35px;
-
-  color: #009fe3;
-}
-
-#curso-text-box p {
-  font-size: 25px;
-}
-
-#curso button {
-  height: 62px;
-  width: 272px;
-
-  margin: 20px 20px;
-
-  font-size: x-large;
-
-  background-color: orange;
-  border: none;
-
-  grid-area: curso-button;
-}
-
-#curso img {
-  grid-area: curso-img;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border: 1px solid white;
-
-  width: 250px;
-}
-
-#first-intersection {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  justify-content: space-evenly;
-
-  margin: 100px 200px;
-}
-
-#mentora {
-  display: grid;
-  grid-template-areas: "mentora-img mentora-text-box";
-
-  grid-template-rows: 20rem 12rem;
-  grid-template-columns: 16rem 16rem;
-
-  justify-content: space-between;
-  margin: 100px 200px;
-}
-
-#mentora img {
-  grid-area: mentora-img;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 250px;
-
-  border: 1px solid white;
-}
-
-#mentora-text-box {
-  display: flex;
-  flex-direction: column;
-
-  text-align: right;
-
-  grid-area: mentora-text-box;
-}
-
-#mentora-text-box h2 {
-  font-size: 35px;
-
-  color: #009fe3;
-
-  margin-bottom: 20px;
-}
-
-#mentora-text-box p {
-  margin-bottom: 20px;
-}
-
-#second-intersection {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  justify-content: space-evenly;
-
-  margin: 100px 200px;
-}
-
-#other-lessons {
-  display: grid;
-  grid-template-areas:
-    "other-courses-title other-courses-anchor-box"
-    "other-courses-text-box other-courses-anchor-box";
-  grid-template-rows: 8rem 15rem;
-  grid-template-columns: 16rem 16rem;
-
-  justify-content: space-between;
-  margin: 100px 200px;
-}
-
-#other-courses-text-box {
-  grid-area: other-courses-text-box;
-}
-
-#other-lessons-title {
-  grid-area: other-courses-title;
-
-  height: fit-content;
-
-  padding-left: 25px;
-
+.course-invitation-interactables {
+  width: 60%;
+  height: 125%;
+  padding-left: 2rem;
   border-left: 1px solid #009fe3;
 }
 
-#other-lessons-anchor-box {
-  grid-area: other-courses-anchor-box;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.course-invitation-image img {
+ display: flex;
+ justify-content: center;
+ max-width: 100%;
+ border: 1px solid white;
 }
 
-other-lessons-text-box p {
-  margin-top: 1000px;
+.course-invitation-text-box h1, h2, p {
+  margin: 1rem 0rem;
+  font-size: 1.8125rem;
+}
+.course-invitation-text-box h2 {
+  color: #009fe3;
+  font-size: 2.1875rem;
 }
 
-#other-lessons-anchor-box a {
-  border: 1px solid white;
-  padding: 10px;
+.course-invitation-cta{
+  margin: 2.5rem 0rem 1rem;
 }
-
-#course-subjects {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-}
-
-#course-subjects img {
-  margin: 50px 0px;
-}
-
-#payment-info {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: space-evenly;
-
-  font-size: 30px;
-
-  width: 726px;
-  height: 598px;
-
-  border-radius: 60px;
-
-  margin: 80px auto;
-
-  align-items: center;
-
-  background: rgba(255, 248, 245, 0.2);
-}
-
-#payment-info button {
-  width: 529px;
-  height: 94.17px;
-
-  border: none;
+.course-invitation-cta button {
   background-color: #ff4900;
-  box-shadow: 0px 0px 20px 16px #f84c08;
-
-  font-size: 45.15px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 1.5rem 0.75rem;
+  width: 55%;
 }
 
-/* Set the width of the scrollbar */
-::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Set the color of the scrollbar track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Set the color of the scrollbar thumb */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* For Firefox */
-  html {
-    scrollbar-width: thin;
-    scrollbar-color: #f1f1f1 #888;
-  }
-  
