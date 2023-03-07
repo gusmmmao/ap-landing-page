@@ -77,3 +77,25 @@ header button {
   width: 55%;
 }
 
+.intersection {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-intersection-image {
+  display: flex;
+  justify-content: center;
+}
+
+.first-intersection-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-intersection-text-box h3, span{
+  display: flex;
+  justify-content: center;
+}
