@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+    color: white;
+  
+    font-family: inter;
+    font-size: medium;
+  }
+  
+  body {
+    background-image: url(./assets/ap-background-img.png);
+    background-size: cover;
+  }
+  
+  header {
+    width: 85%;
+    margin: 1rem auto 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header img {
+    width: 40%;
+  }
+  
+  header button {
+    width: 50%;
+    padding: 0.55rem;
+    background: transparent;
+    color: #ff4900;
+    border: 1px solid #ff4900;
+    align-items: center;
+    font-size: 1.25rem;
+  }
+  
+  .course-invitation {
+     width: 85%;
+     margin: 0rem auto 1rem;
+     display: flex;
+     justify-content: space-between;
+    }
+  
+  .course-invitation-interactables {
+    width: 40%;
+    height: 25%;
+    padding-left: 0.5rem;
+    border-left: 1px solid #009fe3;
+  }
+  
+  .course-invitation-image img {
+   display: flex;
+   justify-content: center;
+   max-width: 100%;
+  }
+  
+  .course-invitation-text-box h1, h2, p {
+    margin: 0.5rem 0rem;
+    font-size: 0.9rem;
+    font-style: normal;
+  }
+  .course-invitation-text-box h2 {
+    color: #009fe3;
+    font-size: 1rem;
+    margin: 0.25rem 0rem;
+  }
+  
+  .course-invitation-cta{
+    margin: 1.75rem 0rem 1rem;
+  }
+  .course-invitation-cta button {
+    background-color: #ff4900;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    padding: 1.5rem 0.75 1.5rem;
+    width: 95%;
+    height: 5rem;
+  }
+  
+  .intersection {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .first-intersection-image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .first-intersection-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .first-intersection-text-box h3, span{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-the-teacher {
+    width: 65%;
+     margin: 3rem auto 0rem;
+     display: flex;
+     justify-content: space-between;
+  }
+  
+  .about-the-teacher-text-box {
+    width: 43.1%;
+    
+  }
+  
+  .about-the-teacher-text-box h2 {
+    font-size: 1.5rem;
+    color: #009fe3;
+    margin: 0rem 0rem 1.80rem;
+    text-align: right;
+  }
+  
+  .about-the-teacher-text-box p {
+    font-size: 1.5rem;
+    margin: 0.90rem 0rem 0.90rem;
+    text-align: right;
+  }
+  
+  .second-intersection-image {
+    display: flex;
+    justify-content: center;
+    margin: 7.5rem 0rem;
+  }
+  
+  .course-abstract {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    margin: 6.1rem auto;
+  }
+  
+  .course-abstract-texts {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-abstract-title-box {
+    font-size: 2.05rem;
+    margin: 0rem 0rem 8rem;
+  }
+  
+  .course-abstract-title-box em {
+    font-family: 'inter';
+    font-size: 2.05rem;
+    font-style: normal;
+    color: #009fe3;
+  }
+  
+  .course-abstract-text-box {
+    padding-left: 1.8rem;
+    border-left: 1px solid #009fe3;
+    width: 50%;
+  }
+  
+  .course-abstract-text-box em {
+    font-family: 'inter';
+    font-size: 2.05rem;
+    font-style: normal;
+    color: #009fe3;
+  }
+  
+  .course-abstract-text-box p {
+    font-size: 1.5rem;
+  }
+  
+  .course-abstract-image-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .course-roadmap {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 6.1rem auto 10rem;
+  }
+  
+  .course-roadmap-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0rem auto 3rem;
+    width: 35%;
+  }
+  .course-roadmap-title em {
+    font-size: 1.8125rem;
+    font-style: normal;
+    color: #009fe3;
+  }
+  
+  .course-payment {
+    width: 65%;
+    margin: 1rem auto 3rem;
+    padding: 1.75rem 0.25rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    background-color: rgba(47, 79, 79, 0.295);
+    border-radius: 2.5rem;
+  }
+  
+  .course-payment-text-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .course-payment-text-box b {
+    font-size: 1.8125rem;
+  }
+  
+  .course-payment-text-box img {
+    width: 30rem;
+  }
+  
+  .course-payment-cta {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+  }
+  
+  .course-payment-cta button {
+    margin: 0rem 0rem 3.5rem;
+    background-color: #ff4900;
+    border: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    width: 27.5rem;
+    height: 5rem;
+    box-shadow: 0rem 0rem 4rem 1rem #ff4900;
+  }
