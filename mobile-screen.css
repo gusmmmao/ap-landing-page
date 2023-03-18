@@ -9,8 +9,8 @@
   }
   
   body {
-    background-image: url(./assets/ap-background-img.png);
-    background-size: cover;
+    background-image: url(./assets/ap-mobile-background-img.png);
+
   }
   
   header {
@@ -37,7 +37,7 @@
   
   .course-invitation {
      width: 85%;
-     margin: 0rem auto 1rem;
+     margin: 2.5rem auto 2.5rem;
      display: flex;
      justify-content: space-between;
     }
@@ -45,7 +45,7 @@
   .course-invitation-interactables {
     width: 40%;
     height: 25%;
-    padding-left: 0.5rem;
+    padding-left: 0.75rem;
     border-left: 1px solid #009fe3;
   }
   
@@ -62,7 +62,7 @@
   }
   .course-invitation-text-box h2 {
     color: #009fe3;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0.25rem 0rem;
   }
   
@@ -80,8 +80,8 @@
   }
   
   .intersection {
-    width: 65%;
-    margin: auto;
+    width: 80%;
+    margin: 5rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +91,7 @@
     display: flex;
     justify-content: center;
   }
-  
+
   .first-intersection-text-box {
     display: flex;
     flex-direction: column;
@@ -101,11 +101,12 @@
   .first-intersection-text-box h3, span{
     display: flex;
     justify-content: center;
+    text-align: center;
   }
   
   .about-the-teacher {
-    width: 65%;
-     margin: 3rem auto 0rem;
+    width: 80%;
+     margin: 2.5rem auto 2.5rem;
      display: flex;
      justify-content: space-between;
   }
@@ -116,26 +117,30 @@
   }
   
   .about-the-teacher-text-box h2 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #009fe3;
-    margin: 0rem 0rem 1.80rem;
+    margin: 0rem 0rem 1.5rem;
     text-align: right;
   }
   
   .about-the-teacher-text-box p {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     margin: 0.90rem 0rem 0.90rem;
     text-align: right;
+  }
+
+  #second-intersection {
+    display: inline;
   }
   
   .second-intersection-image {
     display: flex;
     justify-content: center;
-    margin: 7.5rem 0rem;
+    margin: 6rem 0rem;
   }
   
   .course-abstract {
-    width: 65%;
+    width: 80%;
     margin: auto;
     display: flex;
     margin: 6.1rem auto;
@@ -147,32 +152,33 @@
   }
   
   .course-abstract-title-box {
-    font-size: 2.05rem;
-    margin: 0rem 0rem 8rem;
+    font-size: 1rem;
+    margin: 0rem 0rem 1.3rem;
+    gap: 0.2rem;
   }
   
   .course-abstract-title-box em {
     font-family: 'inter';
-    font-size: 2.05rem;
+    font-size: 1.3rem;
     font-style: normal;
     color: #009fe3;
   }
   
   .course-abstract-text-box {
-    padding-left: 1.8rem;
+    padding-left: 0.9rem;
     border-left: 1px solid #009fe3;
     width: 50%;
   }
   
   .course-abstract-text-box em {
     font-family: 'inter';
-    font-size: 2.05rem;
+    font-size: 0.9rem;
     font-style: normal;
     color: #009fe3;
   }
   
   .course-abstract-text-box p {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
   }
   
   .course-abstract-image-box {
@@ -182,7 +188,7 @@
   }
   
   .course-roadmap {
-    width: 65%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -193,18 +199,24 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 0rem auto 3rem;
-    width: 35%;
+    margin: 3.5rem auto 2rem;
+    width: 75%;
   }
   .course-roadmap-title em {
-    font-size: 1.8125rem;
+    font-size: 1.1rem;
     font-style: normal;
     color: #009fe3;
   }
+
+  .course-roadmap-image img {
+    width: 85%;
+    display: flex;
+    margin: 0rem auto;
+  }
   
   .course-payment {
-    width: 65%;
-    margin: 1rem auto 3rem;
+    width: 80%;
+    margin: 3rem auto 3rem;
     padding: 1.75rem 0.25rem;
     display: flex;
     flex-direction: column; 
@@ -222,11 +234,11 @@
   }
   
   .course-payment-text-box b {
-    font-size: 1.8125rem;
+    font-size: 1.1rem;
   }
   
   .course-payment-text-box img {
-    width: 30rem;
+    width: 85%;
   }
   
   .course-payment-cta {
@@ -241,9 +253,9 @@
     margin: 0rem 0rem 3.5rem;
     background-color: #ff4900;
     border: none;
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-weight: bolder;
-    width: 27.5rem;
+    width: 85%;
     height: 5rem;
-    box-shadow: 0rem 0rem 4rem 1rem #ff4900;
+    box-shadow: 0rem 0rem 1rem 0.25rem #ff4900;
   }
